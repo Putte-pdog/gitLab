@@ -40,13 +40,10 @@ When Patrik tried to push his changes, he was denied because Erik has updated no
 Later, when patrick did resolve the SLT, he just pushed hist source coude changes. Erik could then commit his Y file and got denied on push (LT). After pulling, auto-merging (no true conflicts found), Erik was able to push.
 
 Person A changes some small things in file X, while person B is appending to X.
-
+Erik removed getFather and setFather methods. Patrik appedned to MyNode at the end of the file. Merge was automatic just as above examples.
 
 Person A and B changes the name of the same function in paralell.
 
 
-Person A changes file X on two lines.
-Person B conflicts these changes.
-The mergee
-accidentally only resolves one of the two conflicts.
+Person A changes file X on two lines. Person B conflicts these changes. The mergee accidentally only resolves one of the two conflicts.
 
