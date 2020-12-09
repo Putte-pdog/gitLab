@@ -60,3 +60,11 @@ git checkout tags/release1
 or we do:
 git checkout COMMIT_HASH
 git checkout -b release1 // represented as branch
+
+
+PART TWO:
+rebase will decouple the initial branchin tree from a branch and reapply this connection to the head of the other branch. This is essentially an optional way to merge two branches. According to :
+
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing#:~:text=The%20Rebase%20Option&text=But%2C%20instead%20of%20using%20a,commits%20required%20by%20git%20merge%20
+
+This will create cleaner project histories.
