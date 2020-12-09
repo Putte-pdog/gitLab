@@ -46,4 +46,5 @@ Person A and B changes the name of the same function in paralell.
 When patrik did git pull, he got conflicted. After fixing, he could add the fixing changes and then commit and push.
 
 Person A changes file X on two lines. Person B conflicts these changes. The mergee accidentally only resolves one of the two conflicts.
+Patrik gets two merge conflicts in his file. He resolves one of them but "forgets" the other. Git gives no feedback what so ever that he accidentally missed one resolution. He is able to push like normal, completely unaware that he is commiting ">>>>>>>>>>>> and ==========" syntax.
 
