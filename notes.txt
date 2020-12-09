@@ -19,9 +19,32 @@ git merge
 with merge, we can specify a branch to merge from, into *this branch*. You will find out what *this branch* is from git status and you change branch with git checkout
 
 git add
+adds a file into "stage" or "index" marking it ready for commitment. In Git, we need to make changes AND explicitly tell that we want to include the change in the long transaction. This inclusion is done with git add.
 
 git commit
+commits the added changes, creating a new commit. This is done locally and can be "published" to the remote repo with git push.
 
 git push
+push the local commits to the remote repo. The remote will deny your push if you are not up to date (long transaction). You will need to merge in changes from remote, commit these merges before pushing again.
 
 git pull
+fetches changes from remote ant tries to merge them with local changes. This is the most common way to update your local repo and is similar to CVS commands such as cvs update.
+
+Try these scenarios and note what happens:
+Person A changes file X while person B changes file X (never same line)
+
+
+Person A changes files X,Y while person B changes file Y (never same line)
+
+
+Person A changes some small things in file X, while person B is appending to X.
+
+
+Person A and B changes the name of the same function in paralell.
+
+
+Person A changes file X on two lines.
+Person B conflicts these changes.
+The mergee
+accidentally only resolves one of the two conflicts.
+
