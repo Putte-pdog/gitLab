@@ -54,6 +54,9 @@ we simply use:
 git checkout COMMIT_HASH
 git tag release1 // represented as tag
 
+return to it by:
+git checkout tags/release1
+
 or we do:
 git checkout COMMIT_HASH
 git checkout -b release1 // represented as branch
