@@ -1,5 +1,0 @@
-this is the inital file of one.txt
-
-THIS IS A BUG, REMOVE ME LATER ON!!!
-
-additions to filse
