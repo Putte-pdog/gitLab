@@ -39,24 +39,6 @@ public class MyNode {
   }
 
   /**
-   * Gets the father of this node.
-   *
-   * @return The current father of this node.
-   */
-  public MyNode getFather() {
-    return father;
-  }
-
-  /**
-   * Sets the father of this node.
-   *
-   * @param father The new father of this node.
-   */
-  public void setFather(MyNode father) {
-    this.father = father;
-  }
-
-  /**
    * Gets the right child of this node.
    *
    * @return The current right child of this node.
