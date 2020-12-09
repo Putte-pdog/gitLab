@@ -2,6 +2,8 @@ package tree;
 
 /**
  * This node is amazing omg! Tests are passing, ready for release!
+
+ Patrik has taken over!!!! 
  *
 
  * @author EDAN10 team I-f
