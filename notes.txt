@@ -35,7 +35,9 @@ Person A changes file X while person B changes file X (never same line)
 This scenario was done automatically by git. Since no merge conflict was detected, everything worked seemlessly. However, git first told us to pull before push.
 
 Person A changes files X,Y while person B changes file Y (never same line)
+When Patrik tried to push his changes, he was denied because Erik has updated notes.txt! Strict Long Transaction???
 
+Later, when patrick did resolve the SLT, he just pushed hist source coude changes. Erik could then commit his Y file and got denied on push (LT). After pulling, auto-merging (no true conflicts found), Erik was able to push.
 
 Person A changes some small things in file X, while person B is appending to X.
 
