@@ -1,2 +1,16 @@
 git status
 we can type git status anywhere in the repo and get information about what branc we are in, what state we are in and what files are tracked/not tracked lastly we can see what files has changed.
+
+git diff
+
+git branch
+
+git merge
+
+git add
+
+git commit
+
+git push
+
+git pull
