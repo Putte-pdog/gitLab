@@ -48,3 +48,12 @@ When patrik did git pull, he got conflicted. After fixing, he could add the fixi
 Person A changes file X on two lines. Person B conflicts these changes. The mergee accidentally only resolves one of the two conflicts.
 Patrik gets two merge conflicts in his file. He resolves one of them but "forgets" the other. Git gives no feedback what so ever that he accidentally missed one resolution. He is able to push like normal, completely unaware that he is commiting ">>>>>>>>>>>> and ==========" syntax.
 
+
+CREATING RELEASES:
+we simply use:
+git checkout COMMIT_HASH
+git tag release1 // represented as tag
+
+or we do:
+git checkout COMMIT_HASH
+git checkout -b release1 // represented as branch
