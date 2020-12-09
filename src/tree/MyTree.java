@@ -25,7 +25,7 @@ public class MyTree {
   }
 
   /**
-   * appends a node in this tree. The tree is sorted by the node values.  If a
+   * Appends a node in this tree. The tree is sorted by the node values.  If a
    * node with the same node value is already in the tree nothing happens.
    *
    * @param node The node to append in this tree.

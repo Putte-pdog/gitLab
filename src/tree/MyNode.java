@@ -3,7 +3,6 @@ package tree;
 /**
  * This node is amazing omg! Tests are passing, ready for release!
  *
-
  * @author EDAN10 team I-f
  */
 public class MyNode {
