@@ -3,7 +3,7 @@ package tree;
 /**
  * This node is amazing omg!!!
  *
- * @author Patrik Liedbeck
+ * @author Erik
  * @see MyTree
  */
 public class MyNode {
@@ -93,4 +93,4 @@ public class MyNode {
 }
 
 
-// asfasdpoifjaspodifj 
+/* END OF FILE */
