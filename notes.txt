@@ -28,3 +28,4 @@ git push
 push the local commits to the remote repo. The remote will deny your push if you are not up to date (long transaction). You will need to merge in changes from remote, commit these merges before pushing again.
 
 git pull
+fetches changes from remote ant tries to merge them with local changes. This is the most common way to update your local repo and is similar to CVS commands such as cvs update.
