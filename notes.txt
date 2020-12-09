@@ -10,8 +10,13 @@ git diff pointer..pointer
 where pointer can be a branch name or commit name. This will generate differences between the two snapshots.
 
 git branch
+we can list all local branches using git branch.
+
+git checkout
+will change from current workspace to a snapshot of commit or branch. Use git branch -b [name] to create a new branch with name [name]
 
 git merge
+with merge, we can specify a branch to merge from, into *this branch*. You will find out what *this branch* is from git status and you change branch with git checkout
 
 git add
 
