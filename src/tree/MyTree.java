@@ -25,11 +25,11 @@ public class MyTree {
   }
 
   /**
-   * Inserts a node in this tree. The tree is sorted by the node values.  If a
+   * appends a node in this tree. The tree is sorted by the node values.  If a
    * node with the same node value is already in the tree nothing happens.
    *
-   * @param node The node to insert in this tree.
-   * @return True if node is inserted, false otherwise.
+   * @param node The node to append in this tree.
+   * @return True if node is appended, false otherwise.
    */
   public boolean append(MyNode node) {
     if(root == null) {
