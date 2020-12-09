@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * This is a node in a binary search tree. The node holds an integer value.
+ * This node is amazing omg!!!
  *
  * @author Torbjorn Ekman
  * @see MyTree
