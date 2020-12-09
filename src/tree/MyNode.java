@@ -14,7 +14,7 @@ public class MyNode {
 
   /**
    * Class constructor initializing this node's value.
-   * 
+   *
    * @param value The value of this node.
    */
   public MyNode(int value) {
@@ -109,4 +109,4 @@ public class MyNode {
     }
     return cnt;
   }
-} 
+}
