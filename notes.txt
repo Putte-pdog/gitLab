@@ -29,3 +29,17 @@ push the local commits to the remote repo. The remote will deny your push if you
 
 git pull
 fetches changes from remote ant tries to merge them with local changes. This is the most common way to update your local repo and is similar to CVS commands such as cvs update.
+
+
+Person A changes file X while person B changes file X (never same line)
+
+Person A changes files X,Y while person B changes file Y (never same line)
+
+Person A changes some small things in file X, while person B is appending to X.
+
+Person A and B changes the name of the same function in paralell.
+
+Person A changes file X on two lines.
+Person B conflicts these changes.
+The mergee
+accidentally only resolves one of the two conflicts.
