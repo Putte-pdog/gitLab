@@ -2,6 +2,12 @@ git status
 we can type git status anywhere in the repo and get information about what branc we are in, what state we are in and what files are tracked/not tracked lastly we can see what files has changed.
 
 git diff
+when we run git diff we get a report of all the local changes made since latest commit. We can also specify a single dir or file to diff against.
+
+moreover we can use diff like such:
+git diff pointer..pointer
+
+where pointer can be a branch name or commit name. This will generate differences between the two snapshots.
 
 git branch
 
