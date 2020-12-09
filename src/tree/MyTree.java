@@ -3,7 +3,7 @@ package tree;
 /**
  * This is a binary search tree. The tree holds integer valued nodes.
  *
- * @author Torbjorn Ekman
+ * @author Putte-Pattycakes
  * @see MyNode
  */
 public class MyTree {
@@ -76,4 +76,3 @@ public class MyTree {
     return root.calcSize();
   }
 }
-
