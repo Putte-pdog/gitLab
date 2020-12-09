@@ -92,5 +92,4 @@ public class MyNode {
   }
 }
 
-
 /* END OF FILE */
