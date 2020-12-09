@@ -32,7 +32,7 @@ fetches changes from remote ant tries to merge them with local changes. This is 
 
 Try these scenarios and note what happens:
 Person A changes file X while person B changes file X (never same line)
-
+This scenario was done automatically by git. Since no merge conflict was detected, everything worked seemlessly. However, git first told us to pull before push.
 
 Person A changes files X,Y while person B changes file Y (never same line)
 
