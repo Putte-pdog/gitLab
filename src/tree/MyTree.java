@@ -31,6 +31,7 @@ public class MyTree {
    * @param node The node to append in this tree.
    * @return True if node is appended, false otherwise.
    */
+
   public boolean append(MyNode node) {
     if(root == null) {
       root = node;
