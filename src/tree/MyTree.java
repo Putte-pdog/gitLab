@@ -1,9 +1,9 @@
 package tree;
 
 /**
- * This tree is badass!!
+ * This tree is badass!! Tests are passing, we can release!
  *
- * @author Putte-Pattycakes
+ * @author EADN10 team I-f
  *
  */
 public class MyTree {

@@ -1,10 +1,10 @@
 package tree;
 
 /**
- * This node is amazing omg!!!
+ * This node is amazing omg! Tests are passing, ready for release!
  *
- * @author Erik
- * @see MyTree
+
+ * @author EDAN10 team I-f
  */
 public class MyNode {
   private MyNode left;
