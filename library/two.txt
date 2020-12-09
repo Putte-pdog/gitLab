@@ -1,3 +1,5 @@
 this is the inital file of two.txt
 
 feature added
+
+2nd feature added
