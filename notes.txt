@@ -70,4 +70,6 @@ https://www.atlassian.com/git/tutorials/merging-vs-rebasing#:~:text=The%20Rebase
 This will create cleaner project histories.
 
 Squash:
-Squash allows us to merge commits together. Creating amazing history!!!
+Squash allows us to merge commits together. Creating amazing history!!! (In theory)
+Se this: https://www.git-tower.com/learn/git/faq/git-squash/
+
