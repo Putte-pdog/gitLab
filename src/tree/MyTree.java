@@ -4,7 +4,7 @@ package tree;
  * This tree is badass!!
  *
  * @author Putte-Pattycakes
- * @see MyNode
+ *
  */
 public class MyTree {
   private MyNode root;
